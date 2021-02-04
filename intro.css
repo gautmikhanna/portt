@@ -1,0 +1,181 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+.navbar p {
+  position: fixed;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 2px;
+  top: 12px;
+  left: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+
+li a {
+  float: right;
+  display: block;
+  color: rgb(248, 246, 246);
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  transition: all 0.5s;
+  font-family: "Open Sans", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar a:hover {
+  color: #dd3b0a;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(247, 249, 250);
+  background: rgba(0, 0, 0, 0.5);
+  transition: 0.5s ease;
+  opacity: 0;
+  font-family: "Open Sans", sans-serif;
+  padding: 20px;
+}
+.container:hover .im {
+  opacity: 0.9;
+  transition: 0.5s ease;
+}
+
+.container:hover .text {
+  opacity: 1;
+}
+.container img {
+  opacity: 95%;
+}
+
+h2 span {
+  color: #dd3b0a;
+}
+.button a {
+  background-color: rgb(0, 0, 0);
+  color: rgb(196, 89, 65);
+  border-color: rgb(9, 9, 10);
+  transition: all 0.5s;
+  border-radius: 10px;
+  padding: 5px;
+  text-decoration: none;
+}
+.button a:hover {
+  color: azure;
+}
+section {
+  padding: 6rem 12rem;
+}
+.mid img {
+  float: left;
+}
+.mid tt {
+  float: right;
+}
+
+#tt {
+  text-align: center;
+  padding: 10rem 2rem;
+}
+section.about h1 {
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+section.about h1 span {
+  color: #dd3b0a;
+}
+section.about h3 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+section.about p {
+  font-family: "Lato", sans-serif;
+  line-height: 1.9;
+}
+
+section.role h1 {
+  font-style: italic;
+  text-align: center;
+}
+section.role p {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  color: white;
+}
+section.role {
+  background-image: url(./wp1821212-tesla-wallpapers.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.grid-container {
+  display: grid;
+  grid-template: 250px / auto auto auto;
+  grid-gap: 10px;
+  background-color: #dd3b0a;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgb(255, 255, 255);
+  padding: 20px 0;
+  text-align: center;
+}
+
+.socials h1 {
+  text-align: center;
+  padding: 50px;
+  font-size: 50px;
+  font-family: "Open Sans", sans-serif;
+}
+.socials {
+  background-image: url(./unnamed.jpg);
+}
+#contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #eceffc;
+}
+.form {
+  border: 5px solid black;
+
+  padding: 100px;
+  background-image: url(./pl.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.form h1 {
+  text-align: center;
+  padding: 30px;
+}
+#contact button {
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-left: 100px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  background-color: rgb(145, 49, 192);
+}
